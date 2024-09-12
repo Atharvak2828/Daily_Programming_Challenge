@@ -13,13 +13,13 @@ void arraySort(vector<int>&arr1,vector<int>&arr2){
     sort(arr1.begin(),arr1.end());
     sort(arr2.begin(),arr2.end());
     for(i1=0;i1<arr1.size();i1++){
-            cout<<arr1[i1]<<" ";
-        }
-        cout<<endl;
-        for(i1=0;i1<arr2.size();i1++){
-            cout<<arr2[i1]<<" ";
-        }
-        cout<<endl;
+        cout<<arr1[i1]<<" ";
+    }
+    cout<<endl;
+    for(i1=0;i1<arr2.size();i1++){
+        cout<<arr2[i1]<<" ";
+    }
+    cout<<endl;
 }
 
 int main(){
